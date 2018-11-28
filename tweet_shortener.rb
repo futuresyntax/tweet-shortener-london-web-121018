@@ -51,7 +51,7 @@ dictionary = {
 end
 
 def word_substituter(tweet)
-  tweet.split.map do |word|
+  tweet.split.each do |word|
       if dictionary.keys.include?(word.downcase)
         word = dictionary[word.downcase]
       else
@@ -61,7 +61,7 @@ def word_substituter(tweet)
 end
 
 def bulk_tweet_shortener(tweet)
-  tweet.map do |phrase|
+  tweet.each do |phrase|
     puts word_substituter(phrase)
   end
 end
