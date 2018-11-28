@@ -84,7 +84,7 @@ def shortened_tweet_truncator(tweet)
 end
 end
 end
-end
+
 #   tweet.split.map do |phrase|
 #     if tweet.length > 140
 #       word_substituter(phrase)
