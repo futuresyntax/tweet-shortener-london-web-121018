@@ -73,7 +73,7 @@ def selective_tweet_shortener(tweet)
     tweet
   end
 end
-end
+
 #   tweet.split.map do |phrase|
 #     if tweet.length > 140
 #       word_substituter(phrase)
