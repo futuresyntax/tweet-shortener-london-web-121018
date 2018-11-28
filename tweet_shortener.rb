@@ -83,7 +83,7 @@ def shortened_tweet_truncator(tweet)
     tweet
 end
 end
-end
+
 
 # if tweet.length >= 140
 #   << "..."
