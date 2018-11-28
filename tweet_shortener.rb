@@ -73,5 +73,5 @@ def selective_tweet_shortener(tweet)
     else phrase.length <= 130
     phrase
   end
-end
+end.join(" ")
 end
