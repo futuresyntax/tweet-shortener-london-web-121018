@@ -85,7 +85,7 @@ end
 end
 end
 
-# if tweet.length >= 140 
+# if tweet.length >= 140
 #   << "..."
 #   tweet.split.map do |phrase|
 #     if tweet.length > 140
