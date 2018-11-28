@@ -75,4 +75,3 @@ def selective_tweet_shortener(tweet)
   end
 end
 end
-end
