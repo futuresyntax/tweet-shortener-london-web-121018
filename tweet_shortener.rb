@@ -77,10 +77,11 @@ end
 
 def shortened_tweet_truncator(tweet)
     word_substituter(tweet)
-  if tweet.length >= 136
+  if tweet.length >= 140
       tweet + "..."
   else
     tweet
+end
 end
 end
 #   tweet.split.map do |phrase|
